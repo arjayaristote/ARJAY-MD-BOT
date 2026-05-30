@@ -1,12 +1,14 @@
 {
-  "name": "arjay-md-bot",
-  "version": "1.0.0",
-  "description": "Bot WhatsApp ARJAY MD utilisant Baileys.",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "@adiwajshing/baileys": "^5.0.0"
-  }
+    "name": "arjay-md-bot",
+    "version": "1.0.0",
+    "description": "Bot WhatsApp complet basé sur Baileys.",
+    "main": "bot.js",
+    "scripts": {
+        "start": "node bot.js"
+    },
+    "dependencies": {
+        "@adiwajshing/baileys": "^5.0.0",
+        "@hapi/boom": "^9.1.2",
+        "qrcode-terminal": "^0.12.0"
+    }
 }
